@@ -1,0 +1,39 @@
+Real Estate Price Prediction using Linear Regression
+Context:
+You are provided with a CSV file named real_estate.csv that contains data about various real estate properties. Your task is to build a linear regression model that predicts the selling price of a property based on its features.
+
+CSV File Structure:
+The file contains the following columns (note that there may be additional columns not listed here, I dont remember all that were there; please handle common real estate features):
+
+Price: The selling price of the property.
+Size: Total area of the property in square feet.
+Location: Neighborhood or area where the property is located (categorical).
+Number_of_Bedrooms: Number of bedrooms.
+Number_of_Bathrooms: Number of bathrooms.
+Lot_Size: Size of the lot in square feet.
+Year_Built: Year the property was constructed.
+Garage_Size: Number of cars that the garage can accommodate.
+Property_Type: Type of property (e.g., Single-Family, Condo, Townhouse).
+Distance_to_City_Center: Distance from the property to the city center in miles.
+Your Task:
+
+Data Extraction & Preprocessing:
+
+Load Data.
+Handle Missing Values: Decide how to deal with missing or invalid data.
+Feature Engineering.
+Perform any additional feature scaling or transformation as needed.
+Model Building.
+
+Linear Regression: Implement a linear regression model using the training data to predict Price.
+
+Model Evaluation: Evaluate the model's performance on the test set using appropriate metrics 
+
+
+Deliverables:
+
+Code: Provide a Python script /Jupyter Notebook that includes your solution. Your code should be well-organized and commented to explain each major step.
+
+Additional Considerations:
+1. Assume that the CSV file may contain some noise or missing values.
+2. Focus on creating a clean, maintainable codebase, as you would in a real-world scenario.
