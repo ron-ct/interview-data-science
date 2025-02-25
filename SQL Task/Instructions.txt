@@ -1,0 +1,22 @@
+Given two tables, company and trades, write an SQL query that adds up the total import and export amounts for each country.
+
+The company table has the following columns:
+name (the name of the company)
+country (the country where the company is located)
+
+The trades table has these columns:
+tradeID (uniquely identifies the particular transaction)
+buyer (the name of the buying company)
+seller (the name of the selling company)
+amount (the dollar value of the trade)
+
+Rules:
+Imports: When a company (in a given country) buys goods from a company in a different country.
+Exports: When a company (in a given country) sells goods to a company in a different country.
+Assumption: Each company belongs to exactly one country.
+The output columns should be country, imports, exports.
+Both imports and exports should be displayed.
+
+Your task: Write an SQL query that, for each country, calculates:
+The total value of imports.
+The total value of exports.
